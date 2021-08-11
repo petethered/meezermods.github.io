@@ -1,0 +1,80 @@
+body {
+    background: #111;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+img.logo {
+    width: 250px;
+    display: block;
+    margin: 0 auto 0px;
+}
+
+body h1,body h2,body h3,body h4,body h5 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;;
+}
+
+strong {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.definition {
+    padding: 20px;
+    margin: 0 0 30px;
+    background: #222;
+    border-radius: 10px;;
+}
+.definition p {
+    margin-bottom: 0px;
+    padding: 0px;;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.center img {
+    max-width: 100%;
+}
+
+.icon {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.button {
+    transition: 0.2s;
+    background: #333;
+    color: #fff;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; background: #aaa;}
+
+p.center.footer {
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+
+.instagram img {
+    height: 50px;
+}
